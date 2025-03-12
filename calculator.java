@@ -16,6 +16,7 @@ public class calculator {
             System.out.println("6/ Expo");
             System.out.println("7/ temp");
             System.out.println("8/ currency");
+            
 
             System.out.print(" \n Enter the choice = ");
             option=sc.nextInt();
@@ -46,9 +47,10 @@ public class calculator {
                 num1=sc.nextInt();
                 System.out.print("Enter the num2 :");
                 num2=sc.nextInt();
-                if (num2 == 0 || num1 == 0){
-                    System.out.print("Not divisible by zero");
-                else{
+                if (num2 == 0){
+                    System.out.print("Not divisible by zero"); 
+                }
+                else {
                 System.out.println("\n "+ num1 / num2);
                 }
             }
@@ -76,10 +78,9 @@ public class calculator {
                 double inr = usd * 82.5; 
                 System.out.println("India rupees " + inr);
 
-            }
-        }
+            }        
             else {
-                System.out.println(" \n invalid option :( ");
+                System.out.println(" \n invalid option :(  Try again ");
             }
         
     }
