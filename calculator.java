@@ -39,14 +39,14 @@ public class calculator {
                 double numb1=sc.nextDouble();
                 System.out.print("Enter the num2 = ");
                 double numb2=sc.nextDouble();
-                System.out.println( "\n "+ numb1 / numb2);
+                System.out.println( "\n "+ numb1 * numb2);
             }
             if (option == 4){
                 System.out.print("Enter the num1 :");
                 num1=sc.nextInt();
                 System.out.print("Enter the num2 :");
                 num2=sc.nextInt();
-                System.out.println("\n "+ num1 * num2);
+                System.out.println("\n "+ num1 / num2);
             }
             if (option == 5){
                 System.out.print("Enter the num1 :");
