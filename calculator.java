@@ -25,7 +25,7 @@ public class calculator {
                 num1=sc.nextInt();
                 System.out.print("Enter the num2 = ");
                 num2=sc.nextInt();
-                System.out.println("\n "+num1 + num2);
+                System.out.println("\n "+ num1 + num2);
             }
             if (option == 2){
                 System.out.print("Enter the num1 = ");
@@ -36,9 +36,9 @@ public class calculator {
             }
             if (option == 3){
                 System.out.print("Enter the num1 = ");
-                double numb1=sc.nextDouble();
+                numb1=sc.nextInt();
                 System.out.print("Enter the num2 = ");
-                double numb2=sc.nextDouble();
+                numb2=sc.nextInt();
                 System.out.println( "\n "+ numb1 * numb2);
             }
             if (option == 4){
@@ -64,7 +64,7 @@ public class calculator {
                 System.out.print("Enter celcius = ");
                 double celsius = sc.nextDouble();
                 double fahrenheit = (celsius * 9/5) + 32;
-                System.out.println("\n"+ fahrenheit + " is farenhite ");
+                System.out.println("\n"+ fahrenheit + " is fahrenheit ");
             }
             if (option == 8){
                 System.out.print("Enter amount dollar = ");
