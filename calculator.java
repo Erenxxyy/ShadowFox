@@ -39,7 +39,7 @@ public class calculator {
                 num1=sc.nextInt();
                 System.out.print("Enter the num2 = ");
                 num2=sc.nextInt();
-                System.out.println( "\n "+ numb1 * numb2);
+                System.out.println( "\n "+ num1 * num2);
             }
             if (option == 4){
                 System.out.print("Enter the num1 :");
