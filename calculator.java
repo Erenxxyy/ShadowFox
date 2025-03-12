@@ -19,13 +19,13 @@ public class calculator {
 
             System.out.print(" \n Enter the choice = ");
             option=sc.nextInt();
-         if (option == 1 || option==2 || option==3 || option==3 || option==4 || option==5 || option==6 || option==7 || option==8 ){
+         if (option == 1 || option==2 || option==3 || option==4 || option==5 || option==6 || option==7 || option==8 ){
             if (option == 1){
                 System.out.print("Enter the num1 = ");
                 num1=sc.nextInt();
                 System.out.print("Enter the num2 = ");
                 num2=sc.nextInt();
-                System.out.println("\n "+ num1 + num2);
+                System.out.println("\n "+ (num1 + num2));
             }
             if (option == 2){
                 System.out.print("Enter the num1 = ");
@@ -36,9 +36,9 @@ public class calculator {
             }
             if (option == 3){
                 System.out.print("Enter the num1 = ");
-                numb1=sc.nextInt();
+                num1=sc.nextInt();
                 System.out.print("Enter the num2 = ");
-                numb2=sc.nextInt();
+                num2=sc.nextInt();
                 System.out.println( "\n "+ numb1 * numb2);
             }
             if (option == 4){
