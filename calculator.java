@@ -46,7 +46,11 @@ public class calculator {
                 num1=sc.nextInt();
                 System.out.print("Enter the num2 :");
                 num2=sc.nextInt();
+                if (num2 == 0 || num1 == 0){
+                    System.out.print("Not divisible by zero");
+                else{
                 System.out.println("\n "+ num1 / num2);
+                }
             }
             if (option == 5){
                 System.out.print("Enter the num1 :");
