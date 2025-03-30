@@ -5,7 +5,6 @@ import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 
 class Studentmanagement extends JFrame {
-    // Declare variables
     public JTextField Namef, Idf, Agef, OperationIdf;
     public JPanel panel, NamePan, AgePan, IdPan, subPan, panel2, operationPanel;
     public JButton btn, Namebt, Agebt, Idbt, Add, Display, Update, Delete, Search;
